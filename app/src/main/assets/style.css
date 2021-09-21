@@ -1,0 +1,212 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.logo{
+width: 150px;
+cursor: pointer;
+margin: 30px 0;
+}
+
+
+
+.menu-icon{
+width:25px;
+cursor:pointer;
+display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+list-style: none;
+display:inline-block;
+margin-right:30px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #460088;
+font-size: 30px;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 100px 0;
+}
+
+.col-1{
+flex-basis: 40%;
+position: relative;
+margin-left: 50px;
+}
+
+.col-1 h1{
+
+color: #460088;
+
+
+
+}
+.col-1 h1{
+    font-size: 100px;
+    color: #460088;
+    }
+.col-1 h2{
+font-size: 70px;
+color: #460088;
+}
+
+.col-1 h3{
+    font-size: 55px;
+    color: #460088;
+    font-weight: 100;
+    margin: 20px 0 10px;
+    }
+
+
+.col-1 p{
+font-size: 30px; 
+color: #460088;
+font-weight: 100;
+}
+
+.col-1::after{
+    content:'';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#460088, #000000);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.col-2{
+flex-basis: 60%;
+position: relative;
+display: flex;
+align-items: center;
+
+}
+
+.col-2 .icons{
+    width: 90%;
+    cursor: pointer;
+    margin: 30px 0;
+    }
+
+.col-2 .icons2{
+    width: 150%;
+    cursor: pointer;
+    margin: 30px 0;
+    }
+
+
+
+
+/* MEDIA QUERIES: PHONE PORTRAIT AND LANSCAPE MODE AND TABLET PORTRAIT MODE*/
+@media only screen and (max-width:1200px){
+
+
+    .logo{
+        width: 100px;
+        cursor: pointer;
+        margin: 30px 0;
+        }
+        
+
+nav ul{
+width: 100%;
+position: absolute;
+background: linear-gradient(#460088, #000000);
+top: 100px;
+right: 0;
+z-index: 2;
+text-align: center;
+margin-top: 5px;
+}
+
+nav ul li{
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+nav ul li a{
+color:wheat;
+font-size: 20px;
+}
+.menu-icon{
+    display: block;
+    }
+
+#menulist{
+    overflow:scroll;
+    opacity: initial;
+    transition: 0.5s;
+}
+.row{
+    flex-direction: column-reverse;
+    margin: 50px 0;
+    
+}
+.col-2{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
+.col-2 .icons {
+    width:77%;
+}
+.col-2 .icons2 {
+    width:80%;
+}
+
+
+
+
+.col-1{
+    flex-basis: 100%;
+    
+}
+.col-1 h1{
+    font-size: 50px;
+}
+.col-1 h2{
+    font-size: 35px;
+}
+.col-1 h3{
+    font-size: 15px;
+}
+.col-1 p{
+    font-size: 20px; 
+    color: #460088;
+    font-weight: 100;
+    }
+
+}
+

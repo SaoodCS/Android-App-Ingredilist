@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/duration_textview"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="0"
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/instruction_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:text="Name of Item"
+
+
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+</LinearLayout>

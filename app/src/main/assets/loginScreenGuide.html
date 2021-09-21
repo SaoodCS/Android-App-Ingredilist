@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide for Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+<div class = "container">
+    <div class = "navbar">
+        <img src='images/ingredilistlogo.png' class = 'logo' id=logo>
+        <nav>
+            <ul id=menulist>
+                <li>
+                    <a href="UserGuide.html"> Homepage </a>
+                </li>
+                <li>
+                    <a href="myMealsGuide.html"> Meals </a>
+                </li>
+                <li>
+                    <a href="socialsGuide.html"> Socials</a>
+                </li>
+                <li>
+                    <a href="shoppingListGuide.html"> ShoppingList </a>
+                </li>
+                <li>
+                    <a href="cookingTimerGuide.html"> Cooking Timer</a>
+                </li>
+                <li>
+                    <a href="mySettingsGuide.html"> Settings </a>
+                </li>
+            </ul>
+        </nav>
+        <img src="images/menuicon.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+
+    <div class = "row">
+
+        <center><div class = "col-1" id=col1>
+            <h1><strong>Login Screen</strong></h1>
+            <h2><strong>User Guide for The Login Screen. </strong></h2>
+            <p><em><strong>This page will give a break down of all the functionality available on the Login screen and how it's accessed and used.</strong></em></p>
+        </div></center>
+
+        <div class = "col-2" id = col2>
+            <center><img src='images/LoginIconWebView.png' class = 'icons'></center>
+        </div>
+
+    </div>
+
+
+
+
+    <div class = "row" style="background-color:beige" id = row2>
+        
+        <div class = "col-2" id = col21>
+        
+            <center><img src='images/User Guide Screenshots/Login/Screenshot_1620305686.png' class = 'icons'style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11>
+            <h1 style="text-align: left;"><strong>1. Wireless Network Alert Dialogue</strong></h1>
+            <p style="text-align: left;"><em><strong>When starting the app the first screen you will reach is the login screen. If you are connected to a wireless network, you will receive a toast message on screen informing you that the application is connected with full functionality. If this screen begins without any wireless connection on your device, an alert dialogue will be broadcasted informing you that you are not connected</strong></em></p>
+            <br>
+            <br>
+            <p style="text-align: left;"><em><strong>You can either go to your network settings by pressing the Go To Network Settings button, or you can continue the app without the ability to use functionality that requires the web.</strong></em></p>
+        </div></center>
+    </div>
+
+    <div class = "row" style="background-color:burlywood">
+        
+        <div class = "col-2">
+         
+            <center><img src='images/User Guide Screenshots/Login/Screenshot_1620305764.png' class = 'icons' style="width:250px"></center>
+        </div>
+
+        <center><div class = "col-1">
+            <h1 style="text-align: left;"><strong>2. Logging in with Correct or Incorrect Details</strong></h1>
+            <p style="text-align: left;"><em><strong>When entering your login details, you will be prompted with a message on the screen stating your login details are incorrect if they are not found on the system, or if they are correct you will have access to your Meals screen, which is the home screen of this application.</strong></em></p>
+            <br style="text-align: left;">
+            <br style="text-align: left;">
+            <p style="text-align: left;"><em><strong>Please visit the My Meals Guide to find out more about this screen. It is available in the menu bar above.</strong></em></p>
+        </div></center>
+    </div>
+
+
+    <div class = "row" style="background-color:darksalmon">
+        
+        <div class = "col-2">
+          
+            <center><img src='images/User Guide Screenshots/Login/Screenshot_1620305786.png' class = 'icons' style="width:250px"></center>
+        </div>
+
+        <center><div class = "col-1">
+            <h1 style="text-align: left;"><strong>3. Register</strong></h1>
+            <p style="text-align: left;"><em><strong>When registering to ingredilist to have access to the local data saved, if you press the register button with an account that has already been registered, you will be prompted by an error to inform you to press login instead.</strong></em></p>
+            <br style="text-align: left;">
+            <br style="text-align: left;">
+            <p style="text-align: left;"><em><strong>The purpose of this registration is to allow family members or close friends access to your locally saved data under their own account. When registered corretly a toast message will appear informing you have been registered correctly.</strong></em></p>
+        </div></center>
+    </div>
+
+
+
+
+
+<!-- Website responsiveness here in the javascript code, and in the css styles sheet and viewport.-->
+
+</div>
+<script>
+var menulist = document.getElementById("menulist");
+var col2 = document.getElementById("col2");
+var col1 = document.getElementById("col1");
+var row2 = document.getElementById("row2");
+var logo = document.getElementById("logo");
+menulist.style.maxHeight = "0px";
+function togglemenu(){
+    if(menulist.style.maxHeight == "0px"){
+        menulist.style.maxHeight = "120px"
+        col2.style.top = "70px"
+        row2.style.marginTop = "100px"
+        col1.style.top="70px"
+        logo.style.width ="70px"
+    }
+    else{
+        menulist.style.maxHeight = "0px"
+        col2.style.top = "30px"
+        col1.style.top="30px"
+        row2.style.marginTop="30px"
+        logo.style.width ="100px"
+
+    }
+}
+</script>
+</body>
+

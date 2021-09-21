@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ingredilist">
+    <!-- permission to use a foreground service for the cooking timer so it runs when activity and app are closed -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- request permission to use the phone of the smartphone to make an enquiry to a supermarket -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ingredilist"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ingredilist">
+        <activity
+            android:name=".DisplayedFirestoreCreatedMeals"
+            android:parentActivityName=".FirebaseProfileSettings"
+            android:screenOrientation="fullSensor"/>
+
+        <!-- adding the shareactionprovider in the action bar theme to the add meal to feed screen -->
+        <activity
+            android:name=".addMealToFeed"
+            android:parentActivityName=".DisplayedFirestoreCreatedMeals"
+            android:theme="@style/ShareActionTheme"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name=".FirebaseProfileSettings"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".FirebaseLogin"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".firebaseRegistration"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".UserGuideActivity"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/> <!-- Broadcast reciever to display a broadcast message to the user regarding no network or network connection for access to firebase functionality within the application -->
+        <receiver
+            android:name=".NetworkBCReceiver"
+            android:enabled="true"
+            android:exported="true" /> <!-- content provider for the supermarket contacts so that other applications can get and set these contacts if user needs to -->
+        <provider
+            android:name=".MyContactsContentProvider"
+            android:authorities="com.ingredilistContacts.provider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ContactsActivity"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".CookingTimerActivity"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/> <!-- cooking timer service which stays running and in the notifications of the smartphone even when the app is completely closed and activity is closed -->
+        <service
+            android:name=".myTimerService"
+            android:exported="false" />
+
+        <activity
+            android:name=".ShoppingAlarmSettings"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".UpdateLocalMealsActivity"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".AddNewLocalMeal"
+            android:parentActivityName=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".myMeals"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlertReciever" />
+    </application>
+
+</manifest>

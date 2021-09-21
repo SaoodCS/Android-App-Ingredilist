@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116870961908",
+    "firebase_url": "https://ingredilist-f2353-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ingredilist-f2353",
+    "storage_bucket": "ingredilist-f2353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116870961908:android:962d39f712212a18111ca1",
+        "android_client_info": {
+          "package_name": "com.example.ingredilist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116870961908-ls3bq0bk2cllvjr1bbmbamucpnk4dl0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADdWuR8_UQslyxb48Se7kTygfnrQ806TE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116870961908-ls3bq0bk2cllvjr1bbmbamucpnk4dl0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

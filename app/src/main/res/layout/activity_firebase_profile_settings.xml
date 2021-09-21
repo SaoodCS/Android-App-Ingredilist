@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseProfileSettings" >
+
+    <ScrollView
+        android:id="@+id/scrollnavigation2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/purple_700"
+        android:verticalScrollbarPosition="right"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintBottom_toBottomOf="@id/fbMenuIcon2"
+        app:layout_constraintEnd_toStartOf="@id/fbMenuIcon2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/fbMenuIcon2">
+
+        <LinearLayout
+            android:id="@+id/LinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profileFeedTVLink2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+
+                android:text="Meals Feed"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/LogoutTVLink2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+
+                android:text="Logout"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/backToLocalTVLink2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+
+                android:text="Back To Local"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/closeMenuTVLink2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+
+                android:text="Close Menu"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/fbMenuIcon2"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollnavigation2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/userFeedTV"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menuicon" />
+
+    <TextView
+        android:id="@+id/userFeedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Profile Settings"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@id/scrollnavigation2"
+        app:layout_constraintEnd_toStartOf="@+id/fbMenuIcon2"
+        app:layout_constraintStart_toEndOf="@id/logoImageView"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fbMenuIcon2"
+        app:layout_constraintEnd_toStartOf="@id/userFeedTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ingredilistlogo"  />
+
+    <TextView
+        android:id="@+id/userEmailTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Account Email"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/usersNameET"
+        app:layout_constraintStart_toStartOf="@+id/usersNameET"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/usersNameET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/usersDietTypeET"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/usersDietTypeET"
+        app:layout_constraintTop_toBottomOf="@+id/userEmailTV"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/usersDietTypeET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your Diet Type"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usersNameET"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="391dp"
+        android:layout_height="54dp"
+        android:text="UPDATE CHANGES MADE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usersDietTypeET"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:id="@+id/uploadNewMealBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD A NEW MEAL TO THE FEED"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateButton"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="98dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214"
+        app:srcCompat="@drawable/ingredilistlogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this is the menu in the toolbar (which replaces the action bar) for the add meal to feed scree
+It contains only 1 item which is the shareactionprovider -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_share"
+        android:title="@string/share1"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        />
+
+    <item android:id="@+id/backToProfile"
+        android:title="@string/back1"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/backicon"
+        />
+</menu>

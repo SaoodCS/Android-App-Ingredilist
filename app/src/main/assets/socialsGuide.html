@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide for Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+<div class = "container">
+    <div class = "navbar">
+        <img src='images/ingredilistlogo.png' class = 'logo' id=logo>
+        <nav>
+            <ul id=menulist>
+                <li>
+                    <a href="loginScreenGuide.html"> Login </a>
+                </li>
+                <li>
+                    <a href="myMealsGuide.html"> Meals </a>
+                </li>
+                <li>
+                    <a href="UserGuide.html"> Homepage </a>
+                </li>
+                <li>
+                    <a href="shoppingListGuide.html"> ShoppingList </a>
+                </li>
+                <li>
+                    <a href="cookingTimerGuide.html"> Cooking Timer</a>
+                </li>
+                <li>
+                    <a href="mySettingsGuide.html"> Settings </a>
+                </li>
+            </ul>
+        </nav>
+        <img src="images/menuicon.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+
+    <div class = "row">
+       <center> <div class = "col-1" id=col1>
+            <h1><strong>Socials</strong></h1>
+            <h2><strong>User Guide for Socials Activities. </strong></h2>
+            <p><em><strong>This page will give a break down of all the functionality available on the following screen and how it's accessed and used, including any online functionality.</strong></em></p>
+        </div></center>
+
+        <div class = "col-2" id = col2>
+            <center><img src='images/FollowingIconWebView.png' class = 'icons'></center>
+
+        </div>
+
+    </div>
+
+
+
+    <div class = "row" style="background-color:beige" id = row2>
+        
+        <div class = "col-2" id = col21>
+         
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620306985.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>1. Initial Screen</strong></h1>
+            <p style="text-align: left;"><em><strong>The initial socials screen displays 2 buttons; one for registering and the other for logging in, both navigating to their own individual activity. If the user is already logged into their ingredilist socials account, by pressing the login button they will be automatically taken to their login profile without having to log in again. </strong></em></p>
+        </div></center>
+    </div>
+
+
+    <div class = "row" style="background-color:burlywood" id = row2>
+        
+        <div class = "col-2" id = col21>
+    
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620307003.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>2. Register</strong></h1>
+            <p style="text-align: left;"><em><strong>This registration screen requires the user to input registration details and then, on the create button, creates their user profile and navigates them to their user profile screen if their registration details were valid. Otherwise they are told to enter valid login details. </strong></em></p>
+            <p style="text-align: left;"><em><strong>Details required include a name, email address, diet type and password of length 6 or above. If the user already has an account they can navigate to the login screen using the login button at the bottom. </strong></em></p>
+        </div></center>
+    </div>
+
+
+    <div class = "row" style="background-color:lavender" id = row2>
+        
+        <div class = "col-2" id = col21>
+         
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620307108.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>3. Login</strong></h1>
+            <p style="text-align: left;"><em><strong> The login screen involves 2 fields, one for the user email and the other for the user password. If the user types in the correct login details stored in firebase authetication they are then taken to their profile screen. If the login details do not match the user will be alerted that the login details are invalid. The go to login screen button navigates the user to the login screen if they are already a member. </strong></em></p>
+            
+        </div></center>
+    </div>
+
+    <div class = "row" style="background-color:lightgray" id = row2>
+        
+        <div class = "col-2" id = col21>
+       
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620307067.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>4.1 User Profile</strong></h1>
+            <p style="text-align: left;"><em><strong> The user profile screen displays the users email they signed up with, along with the user's name and diet type. The user is able to update their name and diet type by changing the fields containing them and pressing update. This updates their document in firestore and so on the application too. This can be confirmed by logging out, logging in and revisiting the screen or visiting another activity and coming back to this activity. </strong></em></p>
+            <p style="text-align: left;"><em><strong> The upload a meal button allows the user to navigate to the upload a new meal screen where they can do so. </strong></em></p>
+        </div></center>
+    </div>
+
+
+    <div class = "row" style="background-color:lightgray" id = row2>
+        
+        <div class = "col-2" id = col21>
+     
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620307593.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>4.2 User Profile</strong></h1>
+            <p style="text-align: left;"><em><strong> The user profile screen also contains a menu icon at the top right, which, once pressed, opens up a menu that allows the user to: view the social meals feed screen, logout of their account which takes them back to their local account, navigate back to their local account using the back to local option, and finally close the menu by pressing the close option. </strong></em></p>
+            
+        </div></center>
+    </div>
+
+
+    <div class = "row" style="background-color:lightsalmon" id = row2>
+        
+        <div class = "col-2" id = col21>
+         
+            <center><img src='images/User Guide Screenshots/Socials2/Screenshot_1620410219.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>5.1. Upload a Meal</strong></h1>
+            <p style="text-align: left;"><em><strong> The upload a meal screen requires the user to input the meal name and meal ingredients. Once they click upload this meal is uploaded to the firestore meals collection, along with their name and their diet type; which is all displayed on the social feed screen. Once the meal has been added, a toast message will appear on the screen informing the user that the meal has been uploaded. </strong></em></p>
+            
+        </div></center>
+    </div>
+
+    <div class = "row" style="background-color:lightsalmon" id = row2>
+        
+        <div class = "col-2" id = col21>
+         
+            <center><img src='images/User Guide Screenshots/Socials2/Screenshot_1620410294.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>5.2 Share the App</strong></h1>
+            <p style="text-align: left;"><em><strong> The action bar of this screen contains a share action provider button. If you enjoy the online aspect of uploading meals for others to see and the ingredilist community is one you'd like to share with friends and family members, by using this share action provider a default message will send to whomever you choose via applications for sharing data such as bluetooth and others depending on the API of your Android system  </strong></em></p>
+            
+        </div></center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class = "row" style="background-color:lightseagreen" id = row2>
+        
+        <div class = "col-2" id = col21>
+       
+            <center><img src='images/User Guide Screenshots/Socials/Screenshot_1620307567.png' class = 'icons' style="width:250px"></center>
+
+
+        </div>
+        <center><div class = "col-1" id=col11 >
+            <h1 style="text-align: left;"><strong>6. Meals Feed</strong></h1>
+            <p style="text-align: left;"><em><strong> All meals uploaded by all Ingredilist users are displayed on this screen. Each box with a purple border is an individual meal. The user that created the meal's name, their diet type, the meal name, and the meal ingredients are all displayed per meal. </strong></em></p>
+            <p style="text-align: left;"><em><strong> The parent activity of this activity is the user profile screen, which can be accessed the pressing the back icon in the action bar </strong></em></p>
+            
+        </div></center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Website responsiveness here in the javascript code, and in the css styles sheet and viewport.-->
+
+</div>
+</div>
+<script>
+var menulist = document.getElementById("menulist");
+var col2 = document.getElementById("col2");
+var col1 = document.getElementById("col1");
+var row2 = document.getElementById("row2");
+var logo = document.getElementById("logo");
+menulist.style.maxHeight = "0px";
+function togglemenu(){
+    if(menulist.style.maxHeight == "0px"){
+        menulist.style.maxHeight = "120px"
+        col2.style.top = "70px"
+        row2.style.marginTop = "100px"
+        col1.style.top="70px"
+        logo.style.width ="70px"
+    }
+    else{
+        menulist.style.maxHeight = "0px"
+        col2.style.top = "30px"
+        col1.style.top="30px"
+        row2.style.marginTop="30px"
+        logo.style.width ="100px"
+
+    }
+}
+</script>
+</script>
+</body>
+
