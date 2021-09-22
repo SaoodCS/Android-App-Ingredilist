@@ -104,12 +104,17 @@ Receivers, services and permissions are all avaialble to see in the AndroidManif
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To set up this project, get a local copy up and running by either cloning this repository to Android Studio,
+or downloading the ZIP file of the repository and opening it in Android Studio.
+
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
+* [Android Studio](https://developer.android.com/studio)
+* [Git (if cloning the repository)](https://developer.android.com/studio)
+
+
 * npm
   ```sh
   npm install npm@latest -g
