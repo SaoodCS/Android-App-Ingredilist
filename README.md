@@ -52,7 +52,7 @@
 
 The purpose of this application is to ease the strenuous process of keeping on top of all your weekly grocery related chores. It includes various functionalities to fulfil this purpose. <br>
 A secondary purpose of this application is to upload and share meals with the community of people using Ingredilist. Uploading your own created meals and sharing it with other like-minded individuals gives the user an opportunity to make interesting meals of their own based on the ideas of others. <br> <br>
-Some of the functionalities within the application are listed below (for the full functionality and how to use, visit the [user guide](https://saoodcs.github.io/IngredilistUserGuide/)).
+Some of the functionalities within the application are listed below (for the full functionality and how to use it, visit the [user guide](https://saoodcs.github.io/IngredilistUserGuide/)).
 * Create a meal locally
 * Update a meal locally
 * Delete a meal locally
@@ -68,9 +68,8 @@ Some of the functionalities within the application are listed below (for the ful
 * Add and save supermarket phone numbers which you can call directly from the app
 * User guide is available on the Settings screen
 * Ability to adapt to different screen sizes and orientations
-<br>
 
-The Built With section of this readme covers all the developmental tools used throughout to develop these functionalities. 
+<i> The <a href="#built-with">Built With</a> section of this readme covers all the developmental tools that were used to develop the functionalities listed above.</i>
 
 ### Built With
 
