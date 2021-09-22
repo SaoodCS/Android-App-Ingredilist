@@ -44,7 +44,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#user-guide">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -136,7 +136,7 @@ found on the following link: [https://developer.android.com/studio/install](http
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## User Guide
 This application has a very comprehensive user guide highlighting how to use the app alongside all the various functionalities the 
 application has to offer. This user guide also includes screenshots of every activity and fragment screen too. <br>
 * The user guide is available as an integrated web app within the application itself on the settings screen, or can be accessed by clicking the following link:
