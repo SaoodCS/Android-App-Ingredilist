@@ -141,7 +141,6 @@ This application has a very comprehensive user guide highlighting how to use the
 application has to offer. This user guide also includes screenshots of every activity and fragment screen too. <br>
 * The user guide is available as an integrated web app within the application itself or can be accessed by clicking the following link:
 [User Guide Documentation](https://example.com)
-<br>
 * If you would like to just test the app instead of registering, just use the username: "eee" and password: "eee" to do so. 
 
 
