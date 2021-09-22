@@ -89,14 +89,16 @@ This section lists all major frameworks, programming languages, markup languages
 
 ### Plugins and Packages
 This section lists all plugins, packages, and libraries used throughout the project.
-* [Android Studio SDK](https://developer.android.com/studio)
-* [Java](https://www.java.com/en/)
-* [JavaScript](https://www.javascript.com/)
-* [SQLite](https://www.sqlite.org/index.html)
-* [Firebase](https://firebase.google.com/)
-* [HTML](https://www.w3schools.com/html/)
-* [CSS](https://www.w3schools.com/css/)
-
+* [Google Services Plugin](https://developers.google.com/android/guides/google-services-plugin)
+* [ConstraintLayout 2.0.4](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
+* [RecyclerView 1.2.0](https://developer.android.com/jetpack/androidx/releases/recyclerview)
+* [Firebase Authentication](https://firebase.google.com/docs/auth/android/start)
+* [Firebase Database](https://firebase.google.com/docs/database)
+* [Firebase Firestore](https://firebase.google.com/docs/firestore/quickstart)
+* [Firebase UI 7.1.1](https://github.com/firebase/FirebaseUI-Android)
+* [JUnit Testing 4.13.2](https://developer.android.com/jetpack/androidx/releases/test#ext.junit-1.1.3)
+* [Espresso Testing 3.3.0](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.4.0)
+Receivers, services and permissions are all avaialble to see in the AndroidManifest.xml file in the manifests folder.
 
 <!-- GETTING STARTED -->
 ## Getting Started
