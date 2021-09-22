@@ -17,7 +17,7 @@
     <img src="readmeImages/ingredilistlogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Ingredilist Android Application</h3>
+  <h3 align="center">Ingredilist Android Application Clone Test</h3>
 
   <p align="center">
     An application for all your grocery and cooking needs.
