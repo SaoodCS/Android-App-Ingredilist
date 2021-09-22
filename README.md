@@ -124,8 +124,7 @@ found on the following link: [https://developer.android.com/studio/install](http
 3. Update any gradle and build files if requested by Android Studio
 3. Install an AVD emulator to run the app on in Android Studio 
 4. To run the app, either:
-
- <DD>             4. Press the play button in the top toolbar to run the app on the emulator, OR <DD>
+<BLOCKQUOTE> a. Press the play button in the top toolbar to run the app on the emulator, OR <BLOCKQUOTE>
 
 
 
