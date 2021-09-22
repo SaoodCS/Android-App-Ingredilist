@@ -98,6 +98,7 @@ This section lists all plugins, packages, and libraries used throughout the proj
 * [Firebase UI 7.1.1](https://github.com/firebase/FirebaseUI-Android)
 * [JUnit Testing 4.13.2](https://developer.android.com/jetpack/androidx/releases/test#ext.junit-1.1.3)
 * [Espresso Testing 3.3.0](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.4.0)
+<br>
 Receivers, services and permissions are all avaialble to see in the AndroidManifest.xml file in the manifests folder.
 
 <!-- GETTING STARTED -->
