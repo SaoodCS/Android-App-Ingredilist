@@ -110,7 +110,7 @@ or downloading the ZIP file of the repository and opening it in Android Studio.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You will need to install the following software in order to run this project.
 * [Android Studio](https://developer.android.com/studio)
 * [Git (if cloning the repository)](https://git-scm.com/downloads)
 
