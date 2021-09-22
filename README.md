@@ -52,7 +52,7 @@
 
 The purpose of this application is to ease the strenuous process of keeping on top of all your weekly grocery related chores. It includes various functionalities to fulfil this purpose. <br>
 A secondary purpose of this application is to upload and share meals with the community of people using Ingredilist. Uploading your own created meals and sharing it with other like-minded individuals gives the user an opportunity to make interesting meals of their own based on the ideas of others. <br>
-A list of the functionalities within the application:
+A list of some of the functionalities within the application (for full functionality use visit the <a href="#user-guide">user guide</a>)
 * Create a meal locally
 * Update a meal locally
 * Delete a meal locally
