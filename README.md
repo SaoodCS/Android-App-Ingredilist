@@ -45,7 +45,7 @@
 ## About The Project
 
 <p>
-<h3>Example Screenshot: (Locally saved meals for username "eee")</h3>
+<h3>Example Screenshot: <i>(Locally saved meals for user "eee")</i></h3>
    <img src="readmeImages/screenshot1.png" alt="Logo" width="200">
 </p>
 
