@@ -78,7 +78,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section lists all major frameworks, programming languages, markup languages and database structures used throughout the project.
 * [Android Studio SDK](https://developer.android.com/studio)
 * [Java](https://www.java.com/en/)
 * [JavaScript](https://www.javascript.com/)
@@ -88,7 +88,7 @@ This section should list any major frameworks that you built your project using.
 * [CSS](https://www.w3schools.com/css/)
 
 ### Plugins and Packages
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section lists all plugins, packages, and libraries used throughout the project.
 * [Android Studio SDK](https://developer.android.com/studio)
 * [Java](https://www.java.com/en/)
 * [JavaScript](https://www.javascript.com/)
