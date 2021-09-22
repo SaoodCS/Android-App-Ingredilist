@@ -112,7 +112,7 @@ or downloading the ZIP file of the repository and opening it in Android Studio.
 
 You will need to install the following software in order to run this project.
 * [Android Studio](https://developer.android.com/studio)
-* [Git (if cloning the repository)](https://git-scm.com/downloads)
+* [Git](https://git-scm.com/downloads) (if cloning the repository)
 
 ### Installation
 1. Download and install Android Studio. The download link and installation guide can be
