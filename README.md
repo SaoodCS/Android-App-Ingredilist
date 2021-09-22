@@ -126,7 +126,7 @@ found on the following link: [https://developer.android.com/studio/install](http
 <br>
 4. To run the app, either:
 <BLOCKQUOTE> a. Press the play button in the top toolbar to run the app on the emulator, OR <br>
-            b. Run the AVD emulator -> Once loaded, drag and drop "ingredilist apk.apk" from the projects file
+            b. Run the AVD emulator -> Once loaded, drag and drop "ingredilist apk.apk" from the projects folder
             to the emulator screen -> find the app on the android emulator and press it.
  </BLOCKQUOTE>
 
