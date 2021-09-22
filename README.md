@@ -58,6 +58,9 @@
 <p align="center">
 <h3 align="center">Example Screenshot: (local saved meals for username "eee")</h3>
     <img src="readmeImages/screenshot1.png" alt="" width="200">
+    <img src="readmeImages/screenshot2.png" alt="" width="200">
+    <img src="readmeImages/screenshot3.png" alt="" width="200">
+    <img src="readmeImages/screenshot4.png" alt="" width="200">
 </p>
 
 
