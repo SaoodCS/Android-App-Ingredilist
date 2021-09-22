@@ -139,7 +139,7 @@ found on the following link: [https://developer.android.com/studio/install](http
 ## Usage
 This application has a very comprehensive user guide highlighting how to use the app alongside all the various functionalities the 
 application has to offer. This user guide also includes screenshots of every activity and fragment screen too. <br>
-* The user guide is available as an integrated web app within the application itself or can be accessed by clicking the following link:
+* The user guide is available as an integrated web app within the application itself on the settings screen, or can be accessed by clicking the following link:
 [User Guide Documentation](https://example.com)
 * If you would like to just test the app instead of registering, just use the username: "eee" and password: "eee" to do so. 
 
