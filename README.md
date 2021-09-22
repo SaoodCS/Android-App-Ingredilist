@@ -55,9 +55,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-<h3 align="center">Example Screenshot: (local saved meals for username "eee")</h3>
-   <img src="readmeImages/screenshot1.png" alt="Logo" width="200" align = "center">
+<p>
+<h3>Example Screenshot: (local saved meals for username "eee")</h3>
+   <img src="readmeImages/screenshot1.png" alt="Logo" width="200">
 </p>
 
 
