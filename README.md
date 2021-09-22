@@ -78,9 +78,13 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Android Studio SDK](https://developer.android.com/studio)
+* [Java](https://www.java.com/en/)
+* [JavaScript](https://www.javascript.com/)
+* [SQLite](https://www.sqlite.org/index.html)
+* [Firebase](https://firebase.google.com/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
 
 
 
