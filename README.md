@@ -112,29 +112,21 @@ or downloading the ZIP file of the repository and opening it in Android Studio.
 
 This is an example of how to list things you need to use the software and how to install them.
 * [Android Studio](https://developer.android.com/studio)
-* [Git (if cloning the repository)](https://developer.android.com/studio)
-
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* [Git (if cloning the repository)](https://git-scm.com/downloads)
 
 ### Installation
+1. Download and install Android Studio. The download link and installation guide can be
+found on the following link: [https://developer.android.com/studio/install](https://developer.android.com/studio/install)
+2. Press "Clone Repository" in Android Studio. Copy the following repository URL:
+   ```sh
+   https://github.com/SaoodCS/Ingredilist
+   ```
+3. Update any gradle and build files if requested by Android Studio
+3. Install an AVD emulator to run the app on in Android Studio 
+4. To run the app, either:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+ <DD> 4. Press the play button in the top toolbar to run the app on the emulator, OR <DD>
+
 
 
 
