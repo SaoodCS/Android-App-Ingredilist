@@ -45,24 +45,32 @@
 ## About The Project
 
 <p>
-<h3>Example Screenshot: (local saved meals for username "eee")</h3>
+<h3>Example Screenshot: (Locally saved meals for username "eee")</h3>
    <img src="readmeImages/screenshot1.png" alt="Logo" width="200">
 </p>
 
 
+The purpose of this application is to ease the strenuous process of keeping on top of all your weekly grocery related chores. It includes various functionalities to fulfil this purpose. <br>
+A secondary purpose of this application is to upload and share meals with the community of people using Ingredilist. Uploading your own created meals and sharing it with other like-minded individuals gives the user an opportunity to make interesting meals of their own based on the ideas of others. <br>
+A list of the functionalities within the application:
+* Create a meal locally
+* Update a meal locally
+* Delete a meal locally
+* Upload/share a meal 
+* Delete a shared meal 
+* View shared meals by other users with their diet types
+* Create a shopping list 
+* Delete items on the shopping list
+* Delete items on the shopping list
+* Create cooking instructions with the time taken to cook per each instruction
+* Set a cooking timer countdown that notifies you when it reaches 0 
+* Set a shopping alarm time and date for when you would like to go shopping
+* Add and save supermarket phone numbers which you can call directly from the app
+* User guide is available on the Settings screen
+* Ability to adapt to different screen sizes and orientations
+<br>
 
-
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The Built With section of this readme covers all the developmental tools used throughout to develop these functionalities. 
 
 ### Built With
 
@@ -74,9 +82,18 @@ This section lists all major frameworks, programming languages, markup languages
 * [Firebase](https://firebase.google.com/)
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
+* [Espresso Testing Framework](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.4.0)
 
 ### Plugins and Packages
 This section lists all plugins, packages, and libraries used throughout the project.
+* [AlarmManager](https://developer.android.com/reference/android/app/AlarmManager)
+* [Intent](https://developer.android.com/reference/android/content/Intent)
+* [Content Provider](https://developer.android.com/reference/android/content/ContentProvider)
+* [SQLite](https://developer.android.com/jetpack/androidx/releases/sqlite)
+* [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
+* [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver)
+* [ShareActionProvider](https://developer.android.com/reference/android/widget/ShareActionProvider)
+* [NotificationCompat](https://developer.android.com/reference/androidx/core/app/NotificationCompat)
 * [Google Services Plugin](https://developers.google.com/android/guides/google-services-plugin)
 * [ConstraintLayout 2.0.4](https://developer.android.com/jetpack/androidx/releases/constraintlayout)
 * [RecyclerView 1.2.0](https://developer.android.com/jetpack/androidx/releases/recyclerview)
@@ -86,8 +103,6 @@ This section lists all plugins, packages, and libraries used throughout the proj
 * [Firebase UI 7.1.1](https://github.com/firebase/FirebaseUI-Android)
 * [JUnit Testing 4.13.2](https://developer.android.com/jetpack/androidx/releases/test#ext.junit-1.1.3)
 * [Espresso Testing 3.3.0](https://developer.android.com/jetpack/androidx/releases/test#espresso-3.4.0)
-<br>
-Receivers, services and permissions are all avaialble to see in the AndroidManifest.xml file in the manifests folder.
 
 <!-- GETTING STARTED -->
 ## Getting Started
