@@ -14,13 +14,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/SaoodCS/Ingredilist">
-    <img src="readmeImages/ingredilistlogo.png" alt="Logo" width="80" height="80">
+    <img src="readmeImages/ingredilistlogo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Ingredilist Android Application Clone Test</h3>
+  <h3 align="center">Ingredilist Android Application</h3>
 
   <p align="center">
-    An application for all your grocery and cooking needs.
+    An application for all your grocery and cooking needs. Find out more in the sections below. 
   </p>
 </p>
 
@@ -162,4 +162,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: readmeimages/screenshot1.png
