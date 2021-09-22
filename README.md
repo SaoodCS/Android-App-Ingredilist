@@ -34,7 +34,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#add-ons/plugins">Add-ons/Plugins</a><li> 
+        <li><a href="#add-ons and plugins">Add-ons and Plugins</a><li> 
       </ul>
     </li>
     <li>
@@ -87,7 +87,7 @@ This section should list any major frameworks that you built your project using.
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
 
-### Add-ons/Plugins 
+### Add-ons and Plugins
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Android Studio SDK](https://developer.android.com/studio)
 * [Java](https://www.java.com/en/)
